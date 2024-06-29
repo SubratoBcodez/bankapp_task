@@ -1,3 +1,4 @@
+import 'package:bankapp_task/screen/views/Cards.dart';
 import 'package:bankapp_task/screen/views/accounts.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           flexibleSpace: Image.asset('assets/images/appBar_bg.png',fit: BoxFit.cover,),
-          toolbarHeight: MediaQuery.of(context).size.height * 0.20,
+          toolbarHeight: MediaQuery.of(context).size.height * 0.21,
           backgroundColor: AppColor.orangeprimary,
           title: Padding(
             padding: const EdgeInsets.only(left: 20),
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-        body: TabBarView(children: [AccountsPage(), Text('Cards')]),
+        body: TabBarView(children: [AccountsPage(), CardPage()]),
       ),
     );
   }

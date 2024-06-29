@@ -1,5 +1,6 @@
 import 'package:bankapp_task/screen/home_page.dart';
 import 'package:bankapp_task/screen/login_page.dart';
+import 'package:bankapp_task/screen/pay_bill_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,13 +16,13 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Bank App',
       theme: ThemeData(
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: PayBillPage(),
     );
   }
 }
