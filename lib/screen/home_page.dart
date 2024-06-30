@@ -19,6 +19,7 @@ class _HomePageState extends State<HomePage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           flexibleSpace: Image.asset('assets/images/appBar_bg.png',fit: BoxFit.cover,),
           toolbarHeight: MediaQuery.of(context).size.height * 0.21,
           backgroundColor: AppColor.orangeprimary,

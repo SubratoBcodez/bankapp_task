@@ -1,5 +1,3 @@
-
-
 import 'package:bankapp_task/screen/cards_page.dart';
 import 'package:bankapp_task/screen/home_page.dart';
 import 'package:bankapp_task/screen/login_page.dart';
@@ -18,9 +16,8 @@ const String paybill = '/pay_bill_page';
 List<GetPage> getPages = [
   GetPage(name: login, page: () => LoginPage()),
   GetPage(name: home, page: () => HomePage()),
-  GetPage(name: cards, page: () => CardsPage(
-  )),
-  GetPage(name: accounts, page: ()=> AccountsPage()),
-  GetPage(name: card, page: ()=>CardPage()),
-  GetPage(name: paybill, page: ()=>PayBillPage())
+  GetPage(name: cards, page: () => CardsPage()),
+  GetPage(name: accounts, page: () => AccountsPage()),
+  GetPage(name: card, page: () => CardPage()),
+  GetPage(name: paybill, page: () => PayBillPage())
 ];

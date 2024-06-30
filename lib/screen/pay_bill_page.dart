@@ -1,5 +1,7 @@
 import 'package:bankapp_task/bcodez/card.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 
 import '../bcodez/color.dart';
 import '../bcodez/listcard.dart';
@@ -19,7 +21,9 @@ class _PayBillPageState extends State<PayBillPage> {
     return Scaffold(
       backgroundColor: AppColor.whitesecondery,
       appBar: AppBar(
-        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+        leading: IconButton(onPressed: () {
+          Get.back();
+        }, icon: Icon(Icons.arrow_back)),
         actions: [
           TextButton(
             onPressed: () {},
