@@ -1,10 +1,14 @@
-# bankapp_task
+# Bank Account App UI
 
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+## ScreenShoots
+
+<img src="Screenshot_1719685250.png"/> <img src="Screenshot_1719685225.png"/> <img src="Screenshot_1719685173.png"/> <img src="Screenshot_1719683650.png"/>
 
 A few resources to get you started if this is your first Flutter project:
 
