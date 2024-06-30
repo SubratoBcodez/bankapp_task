@@ -1,5 +1,8 @@
 import 'package:bankapp_task/bcodez/color.dart';
+import 'package:bankapp_task/bcodez/route.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 
 import '../../bcodez/card.dart';
 
@@ -31,8 +34,11 @@ class _AccountsPageState extends State<AccountsPage> {
                   SizedBox(
                     width: 15,
                   ),
-                  container('Play Bill Service', 'Govt. bill',
-                      Colors.blueAccent, 'assets/images/doller.png'),
+                  GestureDetector(
+                    onTap: (){Get.toNamed(paybill);},
+                    child: container('Play Bill Service', 'Govt. bill',
+                        Colors.blueAccent, 'assets/images/doller.png'),
+                  ),
                   SizedBox(
                     width: 15,
                   ),

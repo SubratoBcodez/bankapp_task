@@ -2,6 +2,10 @@ import 'package:bankapp_task/bcodez/color.dart';
 import 'package:bankapp_task/bcodez/text_field.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
+
+import '../bcodez/route.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -125,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: () {
-                          // Login logic
+                          Get.toNamed(home);
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: AppColor.orangeprimary,
