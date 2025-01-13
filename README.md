@@ -6,7 +6,6 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-## ScreenShoots
 ### App Screenshots
 <div align="center">
     <table>
@@ -26,7 +25,6 @@ This project is a starting point for a Flutter application.
     </table>
 </div>
 
-<img src="Screenshot_1719685250.png"/> <img src="Screenshot_1719685225.png"/> <img src="Screenshot_1719685173.png"/> <img src="Screenshot_1719683650.png"/>
 
 A few resources to get you started if this is your first Flutter project:
 
